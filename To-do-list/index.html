@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="stule.css">
+</head>
+<body>
+    <p>To do list</p>
+   <div class="grid-display add-margin" >
+        <input type="text" class="js-tasks button" onkeydown="if(event.key === 'Enter')
+        {
+            addtodo();
+        };
+        " placeholder="To do name">
+        <input type="date" class="js-date button">
+        <button class="button buddon1" onclick="addtodo();">Add</button>
+   </div>
+    <div class="js-display grid-display">
+
+    </div>
+
+    <script src="index.js";></script>
+</body>
+</html>
